@@ -1,17 +1,5 @@
-/*!
- * @file getTimefromNTP.ino
- * @brief Get time from ntpServer and show current time 
- * @n Experiment phenomenon: read data every second and print it on serial port. 
- * @n                        This demo only works on mpython
- *
- * @copyright	Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
- * @licence     The MIT License (MIT)
- * @author [LuoYufeng](yufeng.luo@dfrobot.com)
- * @version  V0.1
- * @date  2019-08-19
- * @get from https://www.dfrobot.com
- * @url https://github.com/DFRobot/DFRobot_DS3231M
- */
+// ESP32 by zhuxiaoli.
+
 #include "DFRobot_DS3231M.h"
 #include <WiFi.h>
 #include "time.h"
